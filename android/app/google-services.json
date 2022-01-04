@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862311666327",
+    "project_id": "rwemaapi",
+    "storage_bucket": "rwemaapi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862311666327:android:5f301d8bd8bead9adb0fd2",
+        "android_client_info": {
+          "package_name": "com.example.rwemaapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862311666327-dsj1nke0btmtti7hr88a4cmh79ee4r13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjIR424qvo2am6veBJEAmT8DdpkWO-KoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862311666327-dsj1nke0btmtti7hr88a4cmh79ee4r13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
