@@ -48,6 +48,7 @@ dependencies:
   url_launcher: ^6.0.5
   flutter_launch: ^0.3.0
   connectivity_plus: ^0.6.0
+  encrypted_shared_preferences: ^1.0.7
 
 
 
