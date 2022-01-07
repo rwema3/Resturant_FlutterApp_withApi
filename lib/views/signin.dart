@@ -6,7 +6,6 @@ import 'package:rwemaapi/views/forgot_password.dart';
 import 'package:rwemaapi/widget/widget.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-
 import 'or_divider.dart';
 
 class SignIn extends StatefulWidget {
