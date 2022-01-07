@@ -9,7 +9,6 @@ Future<Stream<Beer>> getBeers() async {
   final streamedRest = await client.send(
     http.Request('get', Uri.parse(url))
   );
-
   return streamedRest.stream
     .transform(utf8.decoder)
     .transform(json.decoder)

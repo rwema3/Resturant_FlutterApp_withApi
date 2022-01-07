@@ -8,7 +8,7 @@ class Home extends StatefulWidget{
   @override
   _HomeState createState() => _HomeState();
 }
-
+//The following line prevents
 class _HomeState extends State<Home> {
   List<Beer> _beers = <Beer>[];
 
