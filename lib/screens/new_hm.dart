@@ -44,7 +44,7 @@ class _WebViewAppState extends State<WebViewApp> {
         actions: [
           Icon(Icons.emoji_food_beverage_outlined),
         ],
-        //The following line prevents
+        //The following line prevents//The following line prevents//The following line prevents
       ),
       body: pageList[pageIndex],
 //The following line prevents
