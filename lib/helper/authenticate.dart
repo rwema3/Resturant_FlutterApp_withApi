@@ -1,5 +1,7 @@
 import 'package:rwemaapi/views/signin.dart';
+
 import 'package:rwemaapi/views/signup.dart';
+
 import 'package:flutter/material.dart';
 
 class Authenticate extends StatefulWidget {
