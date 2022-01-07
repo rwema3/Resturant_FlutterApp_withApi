@@ -1,11 +1,9 @@
 import 'package:rwemaapi/helper/authenticate.dart';
-import 'package:rwemaapi/screens/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatefulWidget {
   // This widget is the root of your application.
   @override
