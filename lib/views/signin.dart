@@ -5,7 +5,7 @@ import 'package:rwemaapi/screens/new_hm.dart';
 import 'package:rwemaapi/services/auth.dart';
 import 'package:rwemaapi/services/database.dart';
 import 'package:rwemaapi/views/forgot_password.dart';
-import 'package:rwemaapi/views/social_icon.dart';
+
 import 'package:rwemaapi/widget/widget.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
