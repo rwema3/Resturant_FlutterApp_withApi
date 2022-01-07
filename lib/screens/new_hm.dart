@@ -47,7 +47,7 @@ class _WebViewAppState extends State<WebViewApp> {
         //The following line prevents
       ),
       body: pageList[pageIndex],
-
+//The following line prevents
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: pageIndex,
         onTap: (value){
