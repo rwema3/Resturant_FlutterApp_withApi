@@ -19,7 +19,6 @@ class _ViState extends State<Vi> {
         initialUrl: 'https://rwemaapi.000webhostapp.com',
         javascriptMode: JavascriptMode.unrestricted,
       ),
-
     );
   }
 }
