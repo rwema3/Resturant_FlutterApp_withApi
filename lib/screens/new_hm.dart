@@ -43,10 +43,8 @@ class _WebViewAppState extends State<WebViewApp> {
         title: Text('Rwema & Robert Resto'),
         actions: [
           Icon(Icons.emoji_food_beverage_outlined),
-
         ],
-
-
+        //The following line prevents
       ),
       body: pageList[pageIndex],
 
