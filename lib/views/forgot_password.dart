@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+//if the login form is submitted//if the login form is submitted
 class ForgotPassword extends StatefulWidget {
   @override
   _ForgotPasswordState createState() => _ForgotPasswordState();
