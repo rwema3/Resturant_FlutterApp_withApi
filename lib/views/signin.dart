@@ -11,7 +11,7 @@ class SignIn extends StatefulWidget {
   final Function toggleView;
 
   SignIn(this.toggleView);
-  mysqli_num_rows
+
   @override
   _SignInState createState() => _SignInState();
 }
