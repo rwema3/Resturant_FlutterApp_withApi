@@ -7,12 +7,11 @@ import 'package:rwemaapi/widget/widget.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'or_divider.dart';
-
 class SignIn extends StatefulWidget {
   final Function toggleView;
 
   SignIn(this.toggleView);
-
+  mysqli_num_rows
   @override
   _SignInState createState() => _SignInState();
 }
