@@ -4,7 +4,7 @@ import '../models/beer.dart';
 import '../widget/beer_title.dart';
 
 class Home extends StatefulWidget{
-
+//if the login form is submitted
   @override
   _HomeState createState() => _HomeState();
 }
