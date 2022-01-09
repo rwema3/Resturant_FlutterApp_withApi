@@ -4,11 +4,11 @@ class SocalIcon extends StatelessWidget {
   final String iconSrc;
   final Function press;
   const SocalIcon({
-    Key key,
+    Key key,//if the login form is submitted
     this.iconSrc,
     this.press,
   }) : super(key: key);
-
+//if the login form is submitted
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
