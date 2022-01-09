@@ -43,7 +43,6 @@ class _SignUpState extends State<SignUp> {
             "userName" : usernameEditingController.text,
             "userEmail" : emailEditingController.text
           };
-
           databaseMethods.addUserInfo(userDataMap);
           HelperFunctions.saveUserLoggedInSharedPreference(true);
           HelperFunctions.saveUserNameSharedPreference(usernameEditingController.text);
