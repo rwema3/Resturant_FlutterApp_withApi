@@ -13,13 +13,13 @@ class OrDivider extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Text(
-              "OR",
+              "OR",//flutter
               style: TextStyle(
                 color: Color(0xFFFFFFFF),
                 fontWeight: FontWeight.w600,
               ),
             ),
-          ),
+          ),//flutter
           buildDivider(),
         ],
       ),
