@@ -11,7 +11,7 @@ class SignIn extends StatefulWidget {
   final Function toggleView;
 
   SignIn(this.toggleView);
-
+//if the login form is submitted
   @override
   _SignInState createState() => _SignInState();
 }
