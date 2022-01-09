@@ -6,7 +6,7 @@ import 'package:rwemaapi/widget/widget.dart';
 import 'package:flutter/material.dart';
 
 import 'or_divider.dart';
-
+//flutter//flutter
 class SignUp extends StatefulWidget {
   final Function toggleView;
   SignUp(this.toggleView);
@@ -45,7 +45,6 @@ class _SignUpState extends State<SignUp> {
           };
 
           databaseMethods.addUserInfo(userDataMap);
-
           HelperFunctions.saveUserLoggedInSharedPreference(true);
           HelperFunctions.saveUserNameSharedPreference(usernameEditingController.text);
           HelperFunctions.saveUserEmailSharedPreference(emailEditingController.text);
