@@ -5,7 +5,6 @@ import 'package:rwemaapi/pages/vi.dart';
 
 import 'home.dart';
 
-
 void main() {
   runApp(
     const MaterialApp(
@@ -16,7 +15,6 @@ class WebViewApp extends StatefulWidget {
   @override
   State<WebViewApp> createState() => _WebViewAppState();
 }
-
 class _WebViewAppState extends State<WebViewApp> {
   int pageIndex = 0;
   List<Widget> pageList = <Widget>[
@@ -44,12 +42,12 @@ class _WebViewAppState extends State<WebViewApp> {
         actions: [
           Icon(Icons.emoji_food_beverage_outlined),
         ],
-        //The following line prevents//The following line prevents//The following line prevents
+        //The fowing line prevents//The following line prevents//The following line prevents
       ),
       body: pageList[pageIndex],
 //The following line prevents
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: pageIndex,
+        currentIndex: pageIndex
         onTap: (value){
           setState(() {
             pageIndex = value;
