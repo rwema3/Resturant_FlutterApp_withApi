@@ -4,7 +4,7 @@ class SocalIcon extends StatelessWidget {
   final String iconSrc;
   final Function press;
   const SocalIcon({
-    Key key,//if the login form is submitted
+    Key key,//if the login form is s
     this.iconSrc,
     this.press,
   }) : super(key: key);
