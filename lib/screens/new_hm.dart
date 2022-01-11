@@ -22,8 +22,6 @@ class _WebViewAppState extends State<WebViewApp> {
     Home(),
     Vi(),
     PageBody(),
-
-
   ];
   @override
   Widget build(BuildContext context) {
@@ -41,8 +39,7 @@ class _WebViewAppState extends State<WebViewApp> {
         title: Text('Rwema & Robert Resto'),
         actions: [
           Icon(Icons.emoji_food_beverage_outlined),
-        ],
-        //The fowing line prevents//The following line prevents//The following line prevents
+        ], //The fowing line prevents//The following line prevents//The following line prevents
       ),
       body: pageList[pageIndex],
 //The following line prevents
