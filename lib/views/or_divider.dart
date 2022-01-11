@@ -15,6 +15,7 @@ class OrDivider extends StatelessWidget {
             child: Text(
               "OR",//flutt
               style: TextStyle(
+
                 color: Color(0xFFFFFFFF),
                 fontWeight: FontWeight.w600,
               ),
