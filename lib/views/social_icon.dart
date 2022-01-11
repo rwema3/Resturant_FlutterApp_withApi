@@ -8,7 +8,7 @@ class SocalIcon extends StatelessWidget {
     this.iconSrc,
     this.press,
   }) : super(key: key);
-//if the login for
+//if the login fo
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
