@@ -9,7 +9,6 @@ class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
 }
-//if the login form is submitted
 class _MyAppState extends State<MyApp> {
 
   bool userIsLoggedIn;
