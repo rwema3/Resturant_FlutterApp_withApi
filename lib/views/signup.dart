@@ -38,7 +38,6 @@ class _SignUpState extends State<SignUp> {
       await authService.signUpWithEmailAndPassword(emailEditingController.text,
           passwordEditingController.text).then((result){
         if(result != null){
-
           Map<String,String> userDataMap = {
             "userName" : usernameEditingController.text,
             "userEmail" : emailEditingController.text
@@ -47,7 +46,6 @@ class _SignUpState extends State<SignUp> {
           HelperFunctions.saveUserLoggedInSharedPreference(true);
           HelperFunctions.saveUserNameSharedPreference(usernameEditingController.text);
           HelperFunctions.saveUserEmailSharedPreference(emailEditingController.text);
-
           Navigator.pushReplacement(context, MaterialPageRoute(
               builder: (context) => WebViewApp()
           ));
