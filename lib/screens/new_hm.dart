@@ -61,7 +61,7 @@ class _WebViewAppState extends State<WebViewApp> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
-            backgroundColor: Color(0xff122d55),
+            backgroundColor: Color(0xff0c3166),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.no_drinks_sharp),
