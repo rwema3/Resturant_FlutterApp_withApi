@@ -5,6 +5,7 @@ import 'package:rwemaapi/pages/vi.dart';
 
 import 'home.dart';
 
+
 void main() {
   runApp(
     const MaterialApp(
@@ -15,13 +16,16 @@ class WebViewApp extends StatefulWidget {
   @override
   State<WebViewApp> createState() => _WebViewAppState();
 }
+
 class _WebViewAppState extends State<WebViewApp> {
   int pageIndex = 0;
   List<Widget> pageList = <Widget>[
-    Ho(),//the
+    Ho(),
     Home(),
     Vi(),
     PageBody(),
+
+
   ];
   @override
   Widget build(BuildContext context) {
@@ -33,18 +37,21 @@ class _WebViewAppState extends State<WebViewApp> {
               colors: [ const Color(0xff07172f),
                 const Color(0xff338bbb)],
             ),
-          ),//i the login form is submitted
+          ),
         ),
         leading: Icon(Icons.restaurant),
         title: Text('Rwema & Robert Resto'),
         actions: [
           Icon(Icons.emoji_food_beverage_outlined),
-        ], //The fowing line prevents//The following line prevents//The following line prevents
+
+        ],
+
+
       ),
       body: pageList[pageIndex],
-//The following line prevents
+
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: pageIndex
+        currentIndex: pageIndex,
         onTap: (value){
           setState(() {
             pageIndex = value;
@@ -69,7 +76,7 @@ class _WebViewAppState extends State<WebViewApp> {
           BottomNavigationBarItem(
             icon: Icon(Icons.contact_mail_outlined),
             label: 'About',
-            backgroundColor: Color(0xff07172f),
+            backgroundColor: Color(0xff06183d),
           ),
 
         ],
