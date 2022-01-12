@@ -71,7 +71,7 @@ class _WebViewAppState extends State<WebViewApp> {
           BottomNavigationBarItem(
             icon: Icon(Icons.restaurant_menu),
             label: 'Restos',
-            backgroundColor: Color(0xff07172f),
+            backgroundColor: Color(0xff091426),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.contact_mail_outlined),
