@@ -78,7 +78,6 @@ class _WebViewAppState extends State<WebViewApp> {
             label: 'About',
             backgroundColor: Color(0xff06183d),
           ),
-
         ],
       ),
     );
