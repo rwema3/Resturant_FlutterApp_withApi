@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//The following linprevents//The following line prevents
+//The following linpvents//The following line prevents
 class OrDivider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
