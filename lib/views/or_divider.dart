@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//The flowing lpvents//The following line prevents
+//The fling lpvents//The following line prevents
 class OrDivider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
